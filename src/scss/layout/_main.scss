@@ -1,0 +1,12 @@
+main {
+       @include breakpoint (tablet) {
+        margin-left: 100px;
+        margin-right: 100px;
+            @include breakpoint (desktop) {
+            margin-left: 320px;
+            margin-right: 320px;
+    }    
+    }
+
+}   
+   

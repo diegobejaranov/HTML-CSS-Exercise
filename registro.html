@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro | Academia Conquer</title>
+  <meta name="description" content="Registrate en nuestra institucion">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<script type="module" src="./src/main.js"></script>
+<header>
+    <figure>
+      <img class="main-logo" width= "350" height="80" src="./img/Comunes/logoconquer.png" alt="Logo Academia Conquer">
+    </figure>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./quienes_somos.html">QUIENES SOMOS</a></li>
+        <li><a href="./cursos.html">CURSOS</a></li>
+        <li><a href="./blog.html">BLOG</a></li>
+        <li>REGISTRO</li>
+        <li><a href="./login.html">LOGIN</a></li>
+        <li><a href="./contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="formu">
+        <h1>REGISTRA TUS DATOS</h1>
+        <p>Ingresa tu informacion a continuacion:</p>
+        <form action="post" enctype="multipart/form-data">
+          <fieldset>
+              <div class="field">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" name="nombre" id="nombre">
+              </div>
+
+              <div class="field">
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento">
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+
+              <div class="field">
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" id="direcccion">
+              </div>
+
+              <div class="field">
+                <label for="pagina">Pagina Web</label>
+                <input type="url" name="pagina" id="pagina">
+              </div>
+
+              <div class="field">
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="foto">
+              </div>
+
+              <div class="field">
+                <label for="biografia">Biografia</label> <br>
+                <textarea name="biografia" id="biografia" cols="50" rows="10"></textarea> 
+              </p>
+              <div class="button-submit">
+                <button>Enviar Formulario</button>
+              </div>
+          </fieldset>
+        </form>
+    </section>    
+  </main>
+
+  <footer>
+    <p>© Academia Conquer - 2025 <a href= "./aviso_legal.html">Aviso Legal</a></p>
+  </footer>
+
+
+</body>
+
+</html>

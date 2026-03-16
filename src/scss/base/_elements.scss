@@ -1,0 +1,22 @@
+figure {
+    text-align: center;
+    img {
+        width: 80%;
+        height: auto;
+        @include breakpoint (desktop) {
+        width: 50%;
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+    background-color: $color-blue;
+    padding: 1px 10px;
+    border-radius: 8px;
+    color: white;
+    &:hover {
+        color: $color-grey;
+    }
+}

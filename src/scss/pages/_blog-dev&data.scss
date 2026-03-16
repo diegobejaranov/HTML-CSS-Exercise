@@ -1,0 +1,16 @@
+.blogs {
+    & p {
+    margin-bottom: 20px;
+    @include breakpoint (tablet) {
+        margin-left: 80px;
+        margin-right: 80px;
+        @include breakpoint (desktop) {
+            font-size: 1.5rem;
+            }
+        }
+    }   
+
+    & figure {
+        text-align: center;
+    }
+}

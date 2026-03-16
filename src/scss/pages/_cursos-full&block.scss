@@ -1,0 +1,25 @@
+.category {
+    & p.intro {
+        text-align: justify;
+    }
+    & section.list {
+        margin-bottom: 30px;
+        & article {
+            text-align: justify;
+            margin-bottom: 30px;
+            & p {
+                margin-bottom: 25px;
+            }
+            & ul {
+            margin-left: 20px;    
+            list-style: circle;
+            }
+             & figure {
+                width: 100%;
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+section.login {
+    text-align: center;
+    & h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    & p {
+        margin-bottom: 30px;
+    }
+
+    & form {
+        text-align: start;
+        margin-bottom: 30px;
+        & fieldset {
+            border-style: dotted;
+            padding: 20px 20px 0px 20px;
+            & .field {
+                margin-bottom: 20px;
+                label {
+                    margin-right: 10px;
+                }
+            }
+            & .button-submit {
+                text-align: center;
+                & button {
+                    padding: 5px 20px;
+                    border-radius: 2px;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+}

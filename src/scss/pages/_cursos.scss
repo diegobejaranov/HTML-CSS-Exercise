@@ -1,0 +1,36 @@
+section.course-title {
+    text-align: center;
+    & h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+}
+
+section.courses {
+    text-align: center;
+    & article {
+        border: 1px solid grey;
+        border-style: dotted;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 40px 10px;
+        & h4 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        & p {
+            margin-bottom: 30px;
+        }
+
+        & img {
+            width: 80%;
+            @include breakpoint (tablet) {
+                width: 50%;
+            }
+            @include breakpoint (desktop) {
+                width: 20%;
+            }
+        }
+    }
+}

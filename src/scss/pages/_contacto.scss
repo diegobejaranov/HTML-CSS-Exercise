@@ -1,0 +1,39 @@
+section.contact {
+    & h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    & form {
+        & fieldset {
+            border-style: dotted;
+            padding: 20px;
+            & .field {
+                margin-bottom: 20px;
+                & label {
+                    margin-right: 10px;
+                }
+                & textarea {
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+            & .button-submit {
+                text-align: center;
+                & button {
+                    font-size: 1.2rem;
+                    padding: 8px 20px;
+                }
+            }
+        }
+    }
+}
+
+section.findus {
+    margin-top: 50px;
+    text-align: center;
+    & h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    & p {
+        & a {
+        background-color: white;
+        color: $color-blue;
+        font-weight: 800;
+        }
+    }
+}

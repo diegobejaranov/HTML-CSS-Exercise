@@ -1,0 +1,40 @@
+header {
+        nav {
+            margin: 30px 0px;
+            & ul {
+                display: flex;
+                gap: 30px;
+                row-gap: 5px;
+                list-style: none;
+                flex-wrap: wrap;
+                justify-content: center;
+                & li {
+                    background-color: $color-blue;
+                    padding: 5px;
+                    border-radius: 8px;
+                    color: white;
+                    & a {
+                        color: white;
+                        &:hover {
+                            color: $color-grey;
+                        }
+                    }
+                }
+               
+
+            }
+    }
+    & figure {
+        text-align: center;
+        & img.main-logo {
+            max-width: 70%;
+        }
+        
+    }
+    @include breakpoint (tablet) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+}
+
