@@ -14,6 +14,10 @@ export default defineConfig({
         cursos: resolve(__dirname, 'cursos.html'),
         login: resolve(__dirname, 'login.html'),
         registro: resolve(__dirname, 'registro.html'), 
+        blockchain: resolve(__dirname, 'pages/blockchain.html'),
+        datascientist: resolve(__dirname, 'pages/datascientist.html'),
+        developer: resolve(__dirname, 'pages/developer.html'),
+        fullstack: resolve(__dirname, 'pages/fullstack.html'),
       }
     }
   }
