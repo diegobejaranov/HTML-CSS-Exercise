@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        quienes: resolve(__dirname, 'quienes-somos.html'),
+        quienes: resolve(__dirname, 'quienes_somos.html'),
         aviso: resolve(__dirname, 'aviso_legal.html'),
         blog: resolve(__dirname, 'blog.html'),
         contacto: resolve(__dirname, 'contacto.html'),
